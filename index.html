@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>PlateScan</title>
+  </head>
+  <body>
+    <div class="outer-container">
+      <div class="inner-container">
+        <header>
+          <p class="timer">9:41</p>
+          <div class="icons">
+            <ion-icon name="cellular-outline"></ion-icon>
+            <ion-icon name="wifi-outline"></ion-icon>
+            <ion-icon name="battery-full-outline"></ion-icon>
+          </div>
+        </header>
+        <main>
+          <div class="profile-bell-container">
+            <div class="profile">
+              <img src="img/profile.png" alt="Profile picture of a woman" />
+              <div class="profile-texts">
+                <p class="welcome">Welcome,</p>
+                <p class="name">Kems</p>
+              </div>
+            </div>
+            <div class="bell">
+              <ion-icon name="notifications-outline"></ion-icon>
+            </div>
+          </div>
+          <div class="start-plan-container">
+            <div class="start-plan">
+              <div class="verify-button">
+                <p>Verify Your Driver Instantly</p>
+                <button class="try-button">Try it now</button>
+              </div>
+              <img
+                src="img/car.png"
+                class="car-image"
+                alt="A picture of a white car"
+              />
+            </div>
+          </div>
+          <input
+            class="form"
+            type="text"
+            placeholder="&#xF002; &nbsp; Drop a plate number"
+            style="font-family: Arial, FontAwesome"
+          />
+          <h2>Recent searches</h2>
+          <div class="profile-searches-container">
+            <div class="profile-searches">
+              <div class="profile-searches-image-text">
+                <div class="profile-searches-image first">AA</div>
+                <div class="profile-searches-texts">
+                  <div class="profile-searches-name">
+                    <p>Adenuga Adeniyi</p>
+                    <img class="error-image" src="img/error.png" alt="error" />
+                  </div>
+                  <p class="profile-searches-dates">
+                    ABC-123XY &nbsp; &#8226; &nbsp; 12 - Aug - 24
+                  </p>
+                </div>
+              </div>
+              <ion-icon
+                class="forward-arrow"
+                name="chevron-forward-outline"
+              ></ion-icon>
+            </div>
+            <div class="profile-searches">
+              <div class="profile-searches-image-text">
+                <div class="profile-searches-image green">FT</div>
+                <div class="profile-searches-texts">
+                  <p class="profile-searches-name">Favour Thomas</p>
+                  <p class="profile-searches-dates">
+                    ABC-123XY &nbsp; &#8226; &nbsp; 12 - Aug - 24
+                  </p>
+                </div>
+              </div>
+              <ion-icon
+                class="forward-arrow"
+                name="chevron-forward-outline"
+              ></ion-icon>
+            </div>
+          </div>
+          <div class="newly-reported-container">
+            <h2>Newly reported</h2>
+            <div class="view-arrow">
+              <a href="">View all</a>
+              <ion-icon
+                class="forward-arrow"
+                name="chevron-forward-outline"
+              ></ion-icon>
+            </div>
+          </div>
+          <div class="profile-searches-container">
+            <div class="profile-searches">
+              <div class="profile-searches-image-text">
+                <div class="profile-searches-image first">AA</div>
+                <div class="profile-searches-texts">
+                  <div class="profile-searches-name">
+                    <p>Adenuga Adeniyi</p>
+                    <img class="error-image" src="img/error.png" alt="error" />
+                  </div>
+                  <p class="profile-searches-dates">
+                    ABC-123XY &nbsp; &#8226; &nbsp; 3 reports
+                  </p>
+                </div>
+              </div>
+              <ion-icon
+                class="forward-arrow"
+                name="chevron-forward-outline"
+              ></ion-icon>
+            </div>
+            <div class="profile-searches">
+              <div class="profile-searches-image-text">
+                <div class="profile-searches-image first">MT</div>
+                <div class="profile-searches-texts">
+                  <div class="profile-searches-name">
+                    <p>Micah Tommy</p>
+                    <img class="error-image" src="img/error.png" alt="error" />
+                  </div>
+                  <p class="profile-searches-dates">
+                    ABC-123XY &nbsp; &#8226; &nbsp; 2 reports
+                  </p>
+                </div>
+              </div>
+              <ion-icon
+                class="forward-arrow"
+                name="chevron-forward-outline"
+              ></ion-icon>
+            </div>
+          </div>
+        </main>
+      </div>
+      <footer class="navigation">
+        <div class="first-second-icon">
+          <div class="home-icon">
+            <ion-icon class="footer-icon" name="home-outline"></ion-icon>
+            <p>Home</p>
+          </div>
+          <div class="search-icon">
+            <ion-icon class="footer-icon" name="search-outline"></ion-icon>
+            <p>Search</p>
+          </div>
+        </div>
+        <div class="third-fourth-icon">
+          <div class="premium-icon">
+            <img class="crown-image" src="img/crown.png" alt="" />
+            <p>Premium</p>
+          </div>
+          <div class="personal-icon">
+            <ion-icon class="footer-icon" name="person-outline"></ion-icon>
+            <p>Me</p>
+          </div>
+        </div>
+        <button class="nav-button js-button">
+          <img src="img/scan.png" alt="" />
+        </button>
+      </footer>
+    </div>
+    <!-- IONICONS -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <!-- JS-FILE -->
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
